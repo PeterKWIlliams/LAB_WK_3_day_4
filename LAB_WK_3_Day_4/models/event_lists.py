@@ -6,5 +6,5 @@ event3 = Event("Tyler gender reveal","03.04.2022",100,"pentland","party")
 
 events = [event1,event2,event3]
 
-def add_new_event(event):
-    events.append(event)
+def add_new_event(new_event):
+    events.append(new_event)

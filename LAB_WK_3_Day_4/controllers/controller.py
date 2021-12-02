@@ -11,7 +11,7 @@ def index():
 def add_task():
     event_name = request.form["name"]
     event_date = request.form["date"]
-    event_num_guests = request["num_guests"]
+    event_num_guests = request.form["num_guests"]
     event_location = request.form["room_location"]
     event_description = request.form["description"]
     new_event = Event(event_name,event_date,event_num_guests,event_location,event_description)
